@@ -1,0 +1,42 @@
+>> tp2
+
+scale_error_x =
+
+   -0.0301
+
+
+scale_error_y =
+
+    0.0100
+
+
+bias_error_x =
+
+    0.0767
+
+
+bias_error_y =
+
+   -0.0175
+
+
+scale_error_x_variance =
+
+   2.6031e-07
+
+
+scale_error_y_variance =
+
+   6.6632e-07
+
+
+bias_error_x_variance =
+
+   1.2499e-05
+
+
+bias_error_y_variance =
+
+   3.1998e-05
+
+>> 

@@ -1,0 +1,8 @@
+Hola, ¿como va? Me trabé con el ejercicio 4 del TP2. Tengo 2 dudas:
+1) ¿La idea es calcular el error del estimador de la posición real (que tendrá componente en 'x' y en 'y'), tomar el módulo de dicho error (que vendría a ser el error 'radial'), o bien el máximo entre las componentes, y compararlo con la mitad de la distancia mínima entre 2 de los puntos A, B, C, D ?
+
+2) Para calcular el error del estimador de la posición real se me presenta un problema. Primero encontrar el error del estimador de la aceleración real y luego integrar 2 veces. Este estimador es:
+ A_real = (A_medida - E_sesgo) / (1 + E_escala)
+Ahora bien, tanto E_sesgo como E_escala son variables aleatorias, ya que son estimadores obtenidos por cuadrados mínimos, por lo tanto el estimador de A_real es no lineal (es un cociente). Lo que se me ocurrió fue hacer una suerte de propagación de errores aproximando por Taylor con derivadas parciales, a lo física I, aunque la cuenta queda medio fea. 
+  En mi carpeta la última clase anoté una fórmula mucho más simple, pero no entiendo de donde sale, si es que es correcta o si la copié mal:
+  Error = A_real * \sigma_escala + \sigma_sesgo

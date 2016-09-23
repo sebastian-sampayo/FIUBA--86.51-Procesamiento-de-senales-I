@@ -1,0 +1,4 @@
+Debido a limitaciones de tamaño de archivos en Campus FIUBA, los otros archivos de audio "pre-codificados" (a partir de señales originales con distintos espectros, conteniendo música, sólo voz, etc.) están disponibles aquí: 
+
+	http://psic.fi.uba.ar/6638/tp1/
+

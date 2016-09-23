@@ -1,0 +1,3 @@
+Posición inicial = [0 0]
+Velocidad inicial = [1 3]
+varianza del ruido de los acelerómetros = [0.25 0.64]
